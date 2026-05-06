@@ -7,11 +7,9 @@ export function Footer() {
       <div className="mx-auto grid max-w-7xl gap-10 px-4 py-14 sm:px-5 md:grid-cols-3 md:px-8">
         <div className="text-center md:text-left">
           <div className="flex items-center justify-center gap-2 md:justify-start">
-            <img
-              src="/assets/icons/logo.png"
-              alt="Palette Coffee logo"
-              className="h-10 w-10 rounded-full border-2 border-palette-cream object-cover"
-            />
+            <div className="grid h-10 w-10 place-items-center rounded-full border-2 border-palette-cream bg-palette-cream font-display text-[10px] font-extrabold uppercase leading-none text-palette-ink">
+              Logo
+            </div>
             <div>
               <div className="font-display text-xl font-extrabold">{cafe.name}</div>
               <div className="text-[10px] uppercase tracking-[0.2em] text-palette-yellow">
@@ -90,7 +88,8 @@ export function Footer() {
         </div>
       </div>
       <div className="border-t border-palette-cream/15 px-5 py-5 text-center text-xs text-palette-cream/60 md:px-8">
-        © {new Date().getFullYear()} Palette Coffee · Coffee & Space. All rights reserved.
+        © {new Date().getFullYear()} Logo / Nama Cafe · Coffee & Creative Space. All rights
+        reserved.
       </div>
     </footer>
   );

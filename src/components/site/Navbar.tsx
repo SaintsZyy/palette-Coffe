@@ -15,11 +15,9 @@ export function Navbar() {
     <header className="sticky top-0 z-40 border-b-2 border-ink bg-palette-cream/85 backdrop-blur supports-[backdrop-filter]:bg-palette-cream/75">
       <div className="mx-auto flex max-w-7xl items-center justify-between px-4 py-3 md:px-8">
         <a href="#top" className="flex min-w-0 items-center gap-2">
-          <img
-            src="/assets/icons/logo.png"
-            alt="Palette Coffee logo"
-            className="h-9 w-9 rounded-full border-2 border-ink object-cover shadow-block-sm"
-          />
+          <div className="grid h-9 w-9 shrink-0 place-items-center rounded-full border-2 border-ink bg-white font-display text-[9px] font-extrabold uppercase leading-none shadow-block-sm">
+            Logo
+          </div>
           <div className="min-w-0 leading-tight">
             <div className="truncate font-display text-base font-extrabold tracking-tight sm:text-lg">
               {cafe.name}

@@ -74,18 +74,17 @@ const imgBundle4 = menuImagePath("bundle-4.jpg");
 const imgBundle5 = menuImagePath("bundle-5.jpg");
 
 export const cafe = {
-  name: "PALETTE COFFEE",
-  concept: "Coffee & Space",
-  tagline: "a place of happiness to paint the canvas of your life",
-  address:
-    "Jl. Banjarsari Barat No.10, RT.07/RW.III, Pedalangan, Kec. Banyumanik, Kota Semarang, Jawa Tengah 50275",
-  shortAddress: "Banyumanik, Semarang",
-  hours: "Mon–Sun · 09.00 – 01.00",
-  instagram: "palettespace__",
-  instagramUrl: "https://www.instagram.com/palettespace__/",
-  maps: "https://maps.app.goo.gl/hKyQ1QhFsZAdQi2s9",
-  whatsapp: "https://wa.me/6282220029293",
-  whatsappLabel: "+62 822-2002-9293",
+  name: "LOGO / NAMA CAFE",
+  concept: "Coffee & Creative Space",
+  tagline: "placeholder tagline untuk identitas cafe kamu",
+  address: "Jl. Nama Jalan No. 10, Nama Area, Nama Kota, Provinsi 00000",
+  shortAddress: "Nama Area, Nama Kota",
+  hours: "Mon-Sun · 09.00 - 23.00",
+  instagram: "namacafe",
+  instagramUrl: "https://www.instagram.com/namacafe/",
+  maps: "https://maps.google.com/?q=Nama+Cafe+Nama+Kota",
+  whatsapp: "https://wa.me/6200000000000",
+  whatsappLabel: "+62 000-0000-0000",
 };
 
 export const heroImages = { counter1, interior, counter2 };
@@ -268,7 +267,7 @@ export const menuCategories: MenuCategory[] = [
         group: "Kopi Susu",
       },
       {
-        name: "Kopi Susu Palette",
+        name: "Kopi Susu Signature",
         price: "27.273",
         desc: "Tiramisu & whipped cream — signature manis dan creamy.",
         image: imgKopiSusu,
@@ -626,7 +625,7 @@ export const menuCategories: MenuCategory[] = [
         group: "Finger Food",
       },
       {
-        name: "Palette Mix Platter",
+        name: "Cafe Mix Platter",
         price: "44.545",
         desc: "Mix french fries, corn ribs, chicken strip & crispy wonton.",
         image: imgSnack9,
@@ -643,7 +642,7 @@ export const menuCategories: MenuCategory[] = [
       {
         name: "Chicken Strip",
         price: "26.364",
-        desc: "Crispy chicken dengan palette sauce.",
+        desc: "Crispy chicken dengan house sauce.",
         image: imgSnack11,
         group: "Finger Food",
       },
@@ -881,15 +880,15 @@ export const allMenuItems = (): { category: MenuCategory; item: MenuItem }[] =>
   menuCategories.flatMap((c) => c.items.map((item) => ({ category: c, item })));
 
 export const gallery = [
-  { src: counter1, alt: "Palette Coffee counter dengan neon sign", tall: true },
-  { src: interior, alt: "Interior cafe dengan mezzanine kuning" },
-  { src: fingerfood, alt: "Finger food platter Palette" },
-  { src: counter2, alt: "Bar dan barista Palette Coffee" },
+  { src: counter1, alt: "Coffee shop counter dengan barista", tall: true },
+  { src: interior, alt: "Interior cafe modern dengan area duduk" },
+  { src: fingerfood, alt: "Finger food platter cafe" },
+  { src: counter2, alt: "Bar kopi dan mesin espresso" },
   { src: drink, alt: "Pengunjung menikmati minuman" },
-  { src: bottle, alt: "Fifty-fifty bottle series" },
-  { src: coffeeAnswer, alt: "Coffee's the answer — Palette", tall: true },
-  { src: pose, alt: "Photo studio Pose & Pop" },
-  { src: photobooth, alt: "Suasana photobooth Palette" },
+  { src: bottle, alt: "Minuman botol signature cafe" },
+  { src: coffeeAnswer, alt: "Coffee moment di meja cafe", tall: true },
+  { src: pose, alt: "Area kreatif untuk foto produk" },
+  { src: photobooth, alt: "Suasana creative corner cafe" },
 ];
 
 export const testimonials = [

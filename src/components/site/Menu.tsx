@@ -37,7 +37,7 @@ export function Menu() {
         <div className="flex flex-col items-start justify-between gap-6 md:flex-row md:items-end">
           <div>
             <span className="inline-block rounded-full border-2 border-ink bg-palette-yellow px-3 py-1 text-xs font-bold uppercase tracking-[0.18em]">
-              Palette Menu
+              Cafe Menu
             </span>
             <h2 className="mt-4 font-display text-4xl font-extrabold md:text-5xl">
               From coffee ritual

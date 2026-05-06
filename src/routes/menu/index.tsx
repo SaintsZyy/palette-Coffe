@@ -7,16 +7,16 @@ import { Footer } from "@/components/site/Footer";
 export const Route = createFileRoute("/menu/")({
   head: () => ({
     meta: [
-      { title: "Full Menu — Palette Coffee Semarang" },
+      { title: "Full Menu — Logo / Nama Cafe" },
       {
         name: "description",
         content:
-          "Eksplor semua menu Palette Coffee Semarang — coffee, non-coffee, snacks, mains, dan bundling lengkap dengan harga.",
+          "Eksplor semua menu cafe template — coffee, non-coffee, snacks, mains, dan bundling lengkap dengan harga.",
       },
-      { property: "og:title", content: "Full Menu — Palette Coffee Semarang" },
+      { property: "og:title", content: "Full Menu — Logo / Nama Cafe" },
       {
         property: "og:description",
-        content: "Coffee, non-coffee, snacks, mains & bundling. Order now di Banyumanik, Semarang.",
+        content: "Coffee, non-coffee, snacks, mains & bundling. Order now di lokasi cafe kamu.",
       },
     ],
   }),
@@ -39,7 +39,7 @@ function MenuIndexPage() {
             All Menu
           </span>
           <h1 className="font-display text-4xl font-extrabold md:text-6xl">
-            Full <span className="text-palette-red">Palette</span> Menu
+            Full <span className="text-palette-red">Cafe</span> Menu
           </h1>
           <p className="max-w-2xl text-foreground/65">
             Dari espresso ritual hingga rice bowl & dessert — semua menu kami dalam satu tempat.

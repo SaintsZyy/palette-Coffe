@@ -13,16 +13,16 @@ export const Route = createFileRoute("/")({
   component: Index,
   head: () => ({
     meta: [
-      { title: "Palette Coffee — Coffee & Space di Semarang" },
+      { title: "Logo / Nama Cafe — Coffee & Creative Space" },
       {
         name: "description",
         content:
-          "Palette Coffee & Space Semarang — creative playground untuk ngopi, berkarya, dan hunting konten. Open daily 09.00–01.00 di Banyumanik.",
+          "Template coffee shop — creative playground untuk ngopi, berkarya, dan hunting konten. Open daily 09.00-23.00 di kota kamu.",
       },
-      { property: "og:title", content: "Palette Coffee — Coffee & Space" },
+      { property: "og:title", content: "Logo / Nama Cafe — Coffee & Creative Space" },
       {
         property: "og:description",
-        content: "A place of happiness to paint the canvas of your life ✨",
+        content: "Placeholder tagline untuk identitas cafe kamu",
       },
     ],
   }),

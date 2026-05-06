@@ -20,10 +20,10 @@ export function Hero() {
             sip your <span className="text-palette-orange">art</span>.
           </h1>
           <p className="mt-5 max-w-xl text-base text-foreground/75 md:text-lg">
-            <span className="font-hand text-2xl text-palette-blue">"{cafe.tagline} ✨"</span>
+            <span className="font-hand text-2xl text-palette-blue">"{cafe.tagline}"</span>
             <br className="hidden md:block" />
             Lebih dari coffee shop — ruang buat ide baru, ngobrol santai, berkarya, dan bikin konten
-            yang memorable di Semarang.
+            yang memorable di kota kamu.
           </p>
           <div className="mt-7 flex flex-col items-stretch gap-3 sm:flex-row sm:flex-wrap sm:items-center">
             <a
@@ -62,7 +62,7 @@ export function Hero() {
           >
             <img
               src={heroImages.counter1}
-              alt="Palette counter"
+              alt="Coffee shop counter"
               className="h-full w-full rounded-xl object-cover transition-transform duration-300 ease-out group-hover:scale-105"
             />
           </div>
@@ -72,7 +72,7 @@ export function Hero() {
           >
             <img
               src={heroImages.interior}
-              alt="Palette interior"
+              alt="Cafe interior"
               className="h-full w-full rounded-xl object-cover transition-transform duration-300 ease-out group-hover:scale-105"
             />
           </div>
@@ -82,7 +82,7 @@ export function Hero() {
           >
             <img
               src={heroImages.counter2}
-              alt="Palette bar"
+              alt="Coffee bar"
               className="h-full w-full rounded-xl object-cover transition-transform duration-300 ease-out group-hover:scale-105"
             />
           </div>
@@ -99,15 +99,15 @@ export function Hero() {
         <div className="flex w-max animate-marquee gap-10 whitespace-nowrap px-6 font-display text-sm font-bold uppercase tracking-wider sm:text-base">
           {Array.from({ length: 2 }).map((_, i) => (
             <div key={i} className="flex items-center gap-10">
-              <span>🎨 Paint your canvas</span>
+              <span>Paint your canvas</span>
               <span className="text-palette-yellow">●</span>
-              <span>☕ Signature Latte</span>
+              <span>Signature Latte</span>
               <span className="text-palette-orange">●</span>
-              <span>📸 Photo Studio open</span>
+              <span>Creative corner open</span>
               <span className="text-palette-red">●</span>
-              <span>✨ Creative Space Semarang</span>
+              <span>Creative Space Nama Kota</span>
               <span className="text-palette-yellow">●</span>
-              <span>🎵 Open daily 09.00 – 01.00</span>
+              <span>Open daily 09.00 - 23.00</span>
               <span className="text-palette-orange">●</span>
             </div>
           ))}

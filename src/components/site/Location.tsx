@@ -1,8 +1,7 @@
 import { cafe } from "@/data/palette";
 
 export function Location() {
-  const mapsEmbed =
-    "https://www.google.com/maps?q=Palette+Coffee+Banjarsari+Barat+Pedalangan+Banyumanik+Semarang&output=embed";
+  const mapsEmbed = "https://www.google.com/maps?q=Nama+Cafe+Nama+Kota&output=embed";
   return (
     <section id="location" className="bg-palette-cream py-20 md:py-28">
       <div className="mx-auto max-w-7xl px-4 sm:px-5 md:px-8">
@@ -14,7 +13,7 @@ export function Location() {
             <h2 className="mt-4 font-display text-4xl font-extrabold md:text-5xl">
               Mampir ke
               <br />
-              <span className="text-palette-orange">Palette.</span>
+              <span className="text-palette-orange">Nama Cafe.</span>
             </h2>
             <div className="mt-6 space-y-4 rounded-2xl border-2 border-ink bg-white p-6 shadow-block-sm">
               <div>
@@ -46,7 +45,7 @@ export function Location() {
                   rel="noreferrer"
                   className="rounded-full border-2 border-ink bg-palette-yellow px-4 py-2 text-sm font-bold shadow-block-sm transition-transform hover:-translate-y-0.5"
                 >
-                  📍 Google Maps
+                  Google Maps
                 </a>
                 <a
                   href={cafe.whatsapp}
@@ -54,7 +53,7 @@ export function Location() {
                   rel="noreferrer"
                   className="rounded-full border-2 border-ink bg-palette-red px-4 py-2 text-sm font-bold text-white shadow-block-sm transition-transform hover:-translate-y-0.5"
                 >
-                  💬 WhatsApp
+                  WhatsApp
                 </a>
                 <a
                   href={cafe.instagramUrl}
@@ -62,7 +61,7 @@ export function Location() {
                   rel="noreferrer"
                   className="rounded-full border-2 border-ink bg-white px-4 py-2 text-sm font-bold shadow-block-sm transition-transform hover:-translate-y-0.5"
                 >
-                  📷 Instagram
+                  Instagram
                 </a>
               </div>
             </div>
@@ -70,7 +69,7 @@ export function Location() {
           <div className="md:col-span-3">
             <div className="overflow-hidden rounded-2xl border-2 border-ink bg-white p-2 shadow-block">
               <iframe
-                title="Lokasi Palette Coffee"
+                title="Lokasi Nama Cafe"
                 src={mapsEmbed}
                 className="h-[320px] w-full rounded-xl sm:h-[420px] md:h-[460px]"
                 loading="lazy"

@@ -14,15 +14,15 @@ export const Route = createFileRoute("/menu/$category")({
     const label = loaderData?.category.label ?? "Menu";
     return {
       meta: [
-        { title: `${label} — Palette Coffee Semarang` },
+        { title: `${label} — Logo / Nama Cafe` },
         {
           name: "description",
-          content: `Lihat semua menu ${label.toLowerCase()} di Palette Coffee Semarang lengkap dengan harga & deskripsi.`,
+          content: `Lihat semua menu ${label.toLowerCase()} di cafe template lengkap dengan harga & deskripsi.`,
         },
-        { property: "og:title", content: `${label} — Palette Coffee` },
+        { property: "og:title", content: `${label} — Logo / Nama Cafe` },
         {
           property: "og:description",
-          content: loaderData?.category.blurb ?? "Menu Palette Coffee Semarang.",
+          content: loaderData?.category.blurb ?? "Menu Logo / Nama Cafe.",
         },
       ],
     };

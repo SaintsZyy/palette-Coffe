@@ -1,4 +1,4 @@
-import { gallery } from "@/data/palette";
+import { cafe, gallery } from "@/data/palette";
 
 export function Gallery() {
   return (
@@ -15,7 +15,7 @@ export function Gallery() {
             </h2>
           </div>
           <a
-            href="https://www.instagram.com/palettespace__/"
+            href={cafe.instagramUrl}
             target="_blank"
             rel="noreferrer"
             className="hidden rounded-full border-2 border-ink bg-white px-4 py-2 text-sm font-bold shadow-block-sm transition-transform hover:-translate-y-0.5 md:inline-block"

@@ -9,7 +9,7 @@ export function About() {
             <div className="absolute -left-3 -top-3 h-full w-full rounded-3xl bg-palette-yellow" />
             <img
               src="/assets/images/palette-interior.jpg"
-              alt="Suasana interior Palette Coffee"
+              alt="Suasana interior cafe"
               className="relative h-[320px] w-full rounded-3xl border-2 border-ink object-cover shadow-block sm:h-[440px]"
             />
             <div className="absolute -bottom-4 -right-2 rotate-[6deg] rounded-2xl border-2 border-ink bg-palette-red px-3 py-2 text-white shadow-block-sm sm:-bottom-5 sm:-right-3 sm:px-4 sm:py-3">
@@ -28,9 +28,9 @@ export function About() {
               Coffee & Space <span className="text-palette-orange">Experience</span>
             </h2>
             <p className="mt-5 text-foreground/75 md:text-lg">
-              Palette hadir sebagai <strong>creative playground di Semarang</strong>. Di sini kamu
-              bisa nongkrong, ngejar deadline, brainstorming project, sampai hunting konten dengan
-              visual yang artistic.
+              Nama cafe hadir sebagai <strong>creative playground di kota kamu</strong>. Di sini
+              kamu bisa nongkrong, ngejar deadline, brainstorming project, sampai hunting konten
+              dengan visual yang artistic.
             </p>
 
             <div className="mt-8 grid gap-4 sm:grid-cols-3">

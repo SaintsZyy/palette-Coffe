@@ -73,7 +73,7 @@
 :root {
   --radius: 1rem;
 
-  /* Palette brand colors */
+  /* Template accent colors */
   --palette-cream: oklch(0.975 0.025 85);
   --palette-yellow: oklch(0.86 0.18 92);
   --palette-orange: oklch(0.72 0.19 45);

@@ -29,27 +29,27 @@ export const Route = createRootRoute({
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Palette Coffee" },
+      { title: "Logo / Nama Cafe" },
       {
         name: "description",
         content:
-          "Palette Coffee is a vibrant landing page for a coffee shop and space, showcasing products, location, and unique offerings.",
+          "Template landing page vibrant untuk coffee shop dan creative space, menampilkan produk, lokasi, galeri, dan penawaran utama.",
       },
-      { name: "author", content: "Palette Coffee" },
-      { property: "og:title", content: "Palette Coffee" },
+      { name: "author", content: "Logo / Nama Cafe" },
+      { property: "og:title", content: "Logo / Nama Cafe" },
       {
         property: "og:description",
         content:
-          "Palette Coffee is a vibrant landing page for a coffee shop and space, showcasing products, location, and unique offerings.",
+          "Template landing page vibrant untuk coffee shop dan creative space, menampilkan produk, lokasi, galeri, dan penawaran utama.",
       },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary" },
-      { name: "twitter:site", content: "@palettespace__" },
-      { name: "twitter:title", content: "Palette Coffee" },
+      { name: "twitter:site", content: "@namacafe" },
+      { name: "twitter:title", content: "Logo / Nama Cafe" },
       {
         name: "twitter:description",
         content:
-          "Palette Coffee is a vibrant landing page for a coffee shop and space, showcasing products, location, and unique offerings.",
+          "Template landing page vibrant untuk coffee shop dan creative space, menampilkan produk, lokasi, galeri, dan penawaran utama.",
       },
       { property: "og:image", content: "/assets/images/palette-interior.jpg" },
       { name: "twitter:image", content: "/assets/images/palette-interior.jpg" },
